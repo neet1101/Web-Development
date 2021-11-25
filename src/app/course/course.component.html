@@ -1,1 +1,11 @@
-<p>course works!</p>
+<ul>
+  <li *ngFor="let c of cou; let i=index" (click) = "onClickMe(i)">
+{{c.code}}
+<div *ngIf="goodToGo[i]"> 
+<strong>Code:</strong>{{c.code}}<br>
+<strong>Title:</strong>{{c.title}}<br>
+<strong>Day Of Week</strong>{{c.dow}}<br>
+<strong>Pro Name:</strong>{{c.pro_name}}<br>
+</div>
+  </li>
+</ul>

@@ -1,7 +1,7 @@
 export class Course
 {
-  code: string = "SYST2444";
-  title: string= "MOBILE WEB-BASED APPLICATION DEVELOPMENT";
-  dow : string= "Wednesday";
-  pro_name : string = "Andy Pak";
+  code!: string;
+  title!: string;
+  dow! : string;
+  pro_name! : string;
 }
